@@ -66,6 +66,6 @@ body {
     grid-template-rows: 6rem calc(100vh - 6rem);
   }
   @media only screen and (max-width: $bp-small) {
-    grid-template-rows: 6rem calc(100vh - 6rem);
+    grid-template-rows: 6rem calc(100vh - 12rem);
   }
 }
