@@ -39,6 +39,11 @@ body {
     grid-template-rows: 6rem calc(100vh - 6rem);
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .container {
+    grid-template-rows: 6rem calc(100vh - 6rem);
+  }
+}
 
 .heading-4, .heading-3, .heading-2, .heading-1 {
   font-family: "Josefin Sans", sans-serif;
